@@ -102,6 +102,23 @@ button {
 .header-top {
   margin-bottom: 44px;
 }
+.btn-header-top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 118px;
+}
+.btn-header-top button {
+  width: 90px;
+  height: 36px;
+}
+.btn-header-top button:hover {
+  border: solid 2px rgb(255, 255, 255);
+  border-radius: 20px;
+  transition: 200ms linear;
+}
+/* .btn-header-top-login:hover .btn-header-top-signup {
+  border-color: transparent;
+} */
 .logo {
   font-family: var(--first-font);
   font-size: 1.25rem;
@@ -135,25 +152,13 @@ button {
   margin: 0 auto;
   margin-bottom: 18px;
 }
-.btn-header-top {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 118px;
-}
-.btn-header-top button {
-  width: 90px;
-  height: 36px;
-}
-.btn-header-top button:hover {
-  border: solid 2px rgb(255, 255, 255);
-  border-radius: 20px;
-  transition: 200ms linear;
-}
+
 .btn-header-bottom {
   border-radius: 20px;
   background-color: rgb(255, 78, 80);
   width: 280px;
   height: 40px;
+  margin: 0 auto;
 }
 /* MAIN */
 .main {
@@ -208,6 +213,12 @@ button {
   background-color: rgb(78, 115, 219);
   background-image: url(../img/icons/plane.png);
 }
+.partners-list {
+  margin-bottom: 30px;
+}
+.partners-list-items:not(:last-child) {
+  margin-bottom: 30px;
+}
 .partners-list-items-name {
   font-size: 0.875rem;
   font-family: var(--first-font);
@@ -223,7 +234,6 @@ button {
   color: rgb(102, 102, 102);
   line-height: 1.2;
   text-align: center;
-  margin-bottom: 30px;
 }
 .btn-partners {
   width: 280px;
