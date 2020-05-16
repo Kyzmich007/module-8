@@ -151,6 +151,8 @@ button {
   text-align: center;
   margin: 0 auto;
   margin-bottom: 18px;
+  padding-left: 36px;
+  padding-right: 36px;
 }
 
 .btn-header-bottom {
